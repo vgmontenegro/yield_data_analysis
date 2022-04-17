@@ -23,7 +23,8 @@ def make_hist(df):
     for i in range(lin):
         for j in range(col):
             if m < n:
-                column = df.columns[m]; m += 1
+                column = df.columns[m]
+                m += 1
             else:
                 break
             data = df[column]
